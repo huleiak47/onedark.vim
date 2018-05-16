@@ -174,13 +174,13 @@ call s:h("Exception", { "fg": s:purple }) " try, catch, throw
 call s:h("PreProc", { "fg": s:yellow }) " generic Preprocessor
 call s:h("Include", { "fg": s:blue }) " preprocessor #include
 call s:h("Define", { "fg": s:purple }) " preprocessor #define
-call s:h("Macro", { "fg": s:purple }) " same as Define
+call s:h("Macro", { "fg": s:red }) " same as Define
 call s:h("PreCondit", { "fg": s:yellow }) " preprocessor #if, #else, #endif, etc.
-call s:h("Type", { "fg": s:yellow }) " int, long, char, etc.
+call s:h("Type", { "fg": s:cyan }) " int, long, char, etc.
 call s:h("StorageClass", { "fg": s:yellow }) " static, register, volatile, etc.
 call s:h("Structure", { "fg": s:yellow }) " struct, union, enum, etc.
 call s:h("Typedef", { "fg": s:yellow }) " A typedef
-call s:h("Special", { "fg": s:blue }) " any special symbol
+call s:h("Special", { "fg": s:dark_red }) " any special symbol
 call s:h("SpecialChar", {}) " special character in a constant
 call s:h("Tag", {}) " you can use CTRL-] on this
 call s:h("Delimiter", {}) " character that needs attention
